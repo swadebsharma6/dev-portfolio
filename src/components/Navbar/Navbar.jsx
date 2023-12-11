@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
@@ -28,8 +29,8 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="max-w-7xl mx-auto">
-        <div className="navbar">
+        <div className="mb-2">
+        <div className="navbar md:h-[100px] p-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,7 +40,11 @@ const Navbar = () => {
            {menus}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <motion.a 
+          initial={{opacity:0, scale:0.5}}
+          animate={{opacity:1, scale:1.5}}
+          transition={{duration:1}}
+           className="btn btn-ghost text-xl">ME-DEV</motion.a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -47,13 +52,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end ">
-         <div className="nav-end">
+         <motion.div initial={{opacity:0, scale:0.5}}
+         animate={{opacity:1, scale:1.5}}
+         transition={{duration:1}}  className="nav-end">
          <FaFacebook className="text-xl text-primary mr-4"></FaFacebook>
          <FaLinkedinIn  className="text-xl text-primary mr-4" />
-         <FaGithub  className="text-xl text-primary mr-4"></FaGithub>
-         </div>
+         <FaGithub  className="text-xl text-primary mr-5 "></FaGithub>
+         </motion.div>
         </div>
       </div>
+     
         </div>
     );
 };
