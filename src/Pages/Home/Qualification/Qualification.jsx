@@ -51,21 +51,9 @@ const Qualification = () => {
           <div className="resume-item my-7">
             <h4 className="title text-2xl">Web Developer</h4>
             <h5 className="sub-titile text-xl">Self-Learning/ 2021 - 2023</h5>
-            <p className="text-lg">
-              User Interface (UI) Development: Creating visually appealing and
-              responsive user interfaces using HTML, CSS, and JavaScript
-              frameworks like React, Angular, or Vue.js. Cross-Browser
-              Compatibility: Ensuring websites work consistently across
-              different browsers and devices. Optimization for Performance:
-              Optimizing front-end performance for faster loading times and
-              better user experience. Collaboration with Designers: Working
-              closely with UI/UX designers to implement their designs into
-              functional web interfaces. Accessibility Compliance: Ensuring
-              websites adhere to accessibility standards to accommodate users
-              with disabilities.
-            </p>
+          
           </div>
-          <hr />
+          
         </div>
       </div>
      

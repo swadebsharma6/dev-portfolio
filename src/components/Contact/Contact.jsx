@@ -39,6 +39,11 @@ const [success, setSuccess] = useState(null)
 
 
     return (
+        <section>
+             <div className=' text-center'>
+             <button className='text-5xl btn  font-bold border-0 border-b-8 '>Contact with Me</button>
+             </div>
+
         <motion.div variants={variants} initial='initial' whileInView='animate' className='contact mb-16 md:flex justify-between items-center gap-6'>
             <motion.div variants={variants} className="text-container p-6 flex-1">
                 <motion.h1 variants={variants} className='text-7xl font-bold mb-5'>Lets Works together</motion.h1>
@@ -88,6 +93,7 @@ const [success, setSuccess] = useState(null)
             </motion.div>
             </div>
         </motion.div>
+        </section>
     );
 };
 

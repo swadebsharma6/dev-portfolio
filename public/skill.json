@@ -22,6 +22,6 @@
     "name": "Node.js",
     "image": "https://i.ibb.co/jTz9pVN/nodejs.png",
     "description": "Node.js is a powerful runtime environment that allows developers to run JavaScript on the server side. It provides a non-blocking I/O model, making it efficient for building scalable applications.",
-    "progress": 90
+    "progress": 75
   }
 ]

@@ -54,9 +54,9 @@ const Navbar = () => {
          <motion.div initial={{opacity:0, scale:0.5}}
          animate={{opacity:1, scale:1.5}}
          transition={{duration:1}}  className="nav-end">
-         <FaFacebook className="text-xl text-primary mr-4"></FaFacebook>
-         <FaLinkedinIn  className="text-xl text-primary mr-4" />
-         <FaGithub  className="text-xl text-primary mr-5 "></FaGithub>
+        <a href="https://www.facebook.com/profile.php?id=100004528517321" target="_blank" rel="noreferrer"> <FaFacebook className="text-xl text-primary mr-4"></FaFacebook></a>
+        <a href="https://www.linkedin.com/in/swadeb-deb-sharma-47852b244/" target="_blank" rel="noreferrer"> <FaLinkedinIn  className="text-xl text-primary mr-4" /></a>
+        <a href="https://github.com/swadebsharma6" target="_blank" rel="noreferrer"> <FaGithub  className="text-xl text-primary mr-5 "></FaGithub></a>
          </motion.div>
         </div>
       </div>
