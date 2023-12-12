@@ -30,7 +30,7 @@ const AboutMe = () => {
 
     return (
         <section className="mb-16 py-6 ">
-                <motion.h3 variants={textVariants} initial='initial' animate='animate' className="text-4xl mb-8 font-bold text-center text-secondary underline">About Me</motion.h3>
+                <motion.h3 variants={textVariants} initial='initial' animate='animate' className="text-4xl mb-8 font-bold text-center ">About Me</motion.h3>
 
                 <div>
                 <div className='hero-section lg:flex items-center py-6'>

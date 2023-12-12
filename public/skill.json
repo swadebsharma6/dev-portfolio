@@ -1,0 +1,27 @@
+[
+  {
+    "name": "JavaScript",
+    "image": "https://i.ibb.co/ccznSZn/js.png",
+    "description": "JavaScript is a versatile programming language used to create dynamic and interactive web content. It is widely adopted for frontend and backend development, enabling powerful web applications.",
+    "progress": 90
+  },
+
+  {
+    "name": "React",
+    "image": "https://i.ibb.co/6Ys7cf1/react.png",
+    "description": "React is a powerful JavaScript library for building interactive user interfaces. With its component-based architecture, it allows for efficient development and seamless UI updates.",
+    "progress": 85
+  },
+  {
+    "name": "MongoDB",
+    "image": "https://i.ibb.co/WW8HQJ9/mongo.png",
+    "description": "MongoDB is a NoSQL database that offers flexibility and scalability. It stores data in a JSON-like format, making it easy to work with and ideal for handling large volumes of data.",
+    "progress": 80
+  },
+  {
+    "name": "Node.js",
+    "image": "https://i.ibb.co/jTz9pVN/nodejs.png",
+    "description": "Node.js is a powerful runtime environment that allows developers to run JavaScript on the server side. It provides a non-blocking I/O model, making it efficient for building scalable applications.",
+    "progress": 90
+  }
+]
