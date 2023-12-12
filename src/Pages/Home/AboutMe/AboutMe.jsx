@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import scroll from '../../../assets/images/scroll.png';
 import image from '../../../assets/images/swadeb.gif';
 
 
@@ -45,7 +46,7 @@ const AboutMe = () => {
                 <p className="space-y-4 text-lg">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user.
                 As a  web developer with 1.5 years of experience, I specialize in leveraging the power of MongoDB, Express.js, React, and Node.js to create dynamic and efficient web applications. I expertise lies in crafting robust backend solutions with Node.js, using Express.js to streamline server-side operations, integrating MongoDB for scalable and flexible data management, and employing React for building responsive and interactive user interfaces. With a strong foundation in these technologies,I have honed your skills in full-stack development, enabling you to create end-to-end solutions that deliver seamless user experiences across the digital landscape.</p>
                 </motion.div>
-                <motion.img animate="scrollButton" variants={textVariants} className='md:w-[50px]' src="/public/scroll.png" alt="" />
+                <motion.img animate="scrollButton" variants={textVariants} className='md:w-[50px]' src={scroll} alt="" />
                 </motion.div>
                </div>
                 </div>

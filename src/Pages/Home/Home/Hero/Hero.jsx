@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import scroll from "../../../../assets/images/scroll.png";
 import image from '../../../../assets/images/swadeb1.png';
 import './Hero.scss';
 const Hero = () => {
@@ -40,7 +41,7 @@ const Hero = () => {
         <a href="https://drive.google.com/file/d/1RiSRSOHXxdzECFCS6dzT2rzmRb3wY3GM/view" download="https://drive.google.com/file/d/1RiSRSOHXxdzECFCS6dzT2rzmRb3wY3GM/view" target="_blank" rel="noreferrer">Download CV</a>
         </motion.button>
         </motion.div>
-        <motion.img animate="scrollButton" variants={textVariants} className='md:w-[50px]' src="/public/scroll.png" alt="" />
+        <motion.img animate="scrollButton" variants={textVariants} className='md:w-[50px]' src={scroll} alt="" />
         </motion.div>
 
         <div className="image-container md:w-[100%] md:h-full overflow-hidden right-0 bottom-0">
