@@ -1,22 +1,17 @@
 import '../../../app.scss';
-import Navbar from '../../../components/Navbar/Navbar';
+import Footer from '../../../components/Footer/Footer';
+import AboutMe from '../AboutMe/AboutMe';
 import Hero from './Hero/Hero';
 
 const Home = () => {
     return (
         <div>
-           <section>
-           <Navbar></Navbar>
+           <section className='banner mb-14 py-5'>
            <Hero></Hero>
            </section>
-           <section>Paralax</section>
-           <section>Services</section>
-           <section>Blogs</section>
-           <section>Services</section>
-           <section>About me</section>
-           <section>Storyo</section>
-           <section>contact us</section>
-           <section>footer</section>
+           <AboutMe></AboutMe>
+
+           <Footer></Footer>
         </div>
     );
 };
