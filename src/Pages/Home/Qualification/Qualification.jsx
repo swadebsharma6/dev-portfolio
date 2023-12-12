@@ -26,7 +26,7 @@ const Qualification = () => {
             
             </p>
           </div>
-          <hr />
+          
         </div>
         <div className="experience-container">
           <h3 className="text-2xl font-bold">My Experience</h3>
@@ -68,11 +68,7 @@ const Qualification = () => {
           <hr />
         </div>
       </div>
-      <div className="download-btn text-center my-7">
-        <button className="btn btn-primary ">
-          <i className="fa-solid fa-download"></i> Download CV
-        </button>
-      </div>
+     
     </section>
   );
 };
