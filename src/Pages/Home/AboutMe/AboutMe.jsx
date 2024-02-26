@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import scroll from '../../../assets/images/scroll.png';
-import image from '../../../assets/images/swadeb.gif';
+
 
 
 const AboutMe = () => {
@@ -34,11 +34,7 @@ const AboutMe = () => {
                 <motion.h3 variants={textVariants} initial='initial' animate='animate' className="text-4xl mb-8 font-bold text-center ">About Me</motion.h3>
 
                 <div>
-                <div className='hero-section lg:flex items-center py-6'>
-                <div className="image-container md:w-full overflow-hidden right-0 bottom-0">
-                <img style={{borderRadius:'0 200px 200px 200px'}}  className='w-full image p-4' src={image} alt="" />
-               </div>
-
+                <div className='hero-section lg:flex items-center justify-center py-6'>
                 <motion.div initial='initial' animate='animate' className="text-container w-full space-y-6 p-8" variants={textVariants}>
                 <motion.h2 variants={textVariants} className='text-4xl text-primary font-bold uppercase  space-x-2'>Build Climber and train Stoper!</motion.h2>
                
